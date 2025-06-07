@@ -1,9 +1,6 @@
-<!-- Move all files in product-dashboard -->
-
-
-
 
 # Getting Started with Create React App
+# All files should be moved to product-dashboard for the app to work
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
