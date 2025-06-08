@@ -21,4 +21,10 @@ public class TestController {
         schedulingService.calculateSalaryAdjustments();
         return "Salary adjustments triggered";
     }
+
+    @GetMapping("/test/daily-report")
+    public String triggerDailyReport() {
+        schedulingService.generateDailyAttendanceReport();
+        return "Daily report triggered";
+    }
 }
